@@ -1,6 +1,6 @@
 - SubId: 0
   Id: 151   
-  Type: NormalAttack
+  Type: 1
   CriticalAdjust: 1
   Power: 100
   Team: 0
@@ -33,7 +33,7 @@
   HpDrain: 0
 - SubId: 0 
   Id: 152 
-  Type: 2
+  Type: 1
   CriticalAdjust: 1
   Power: 100
   Team: 0
@@ -66,7 +66,7 @@
   HpDrain: 0
 - SubId: 0
   Id: 153 
-  Type: 2
+  Type: 1
   CriticalAdjust: 1
   Power: 100
   Team: 0
@@ -99,7 +99,7 @@
   HpDrain: 0
 - SubId: 0
   Id: 154 
-  Type: 2
+  Type: 1
   CriticalAdjust: 1
   Power: 100
   Team: 0
@@ -132,7 +132,7 @@
   HpDrain: 0
 - SubId: 0 
   Id: 155 
-  Type: 2
+  Type: 1
   CriticalAdjust: 1
   Power: 100
   Team: 0
