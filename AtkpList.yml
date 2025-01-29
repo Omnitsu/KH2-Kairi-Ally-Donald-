@@ -97,7 +97,7 @@
   RandomEffect: 0
   Kind:
   HpDrain: 0
- - Id: 154 
+- Id: 154 
   SubId: 0
   Type: 2
   CriticalAdjust: 1
@@ -130,7 +130,7 @@
   RandomEffect: 0
   Kind:
   HpDrain: 0
- - Id: 155 
+- Id: 155 
   SubId: 0
   Type: 2
   CriticalAdjust: 1
