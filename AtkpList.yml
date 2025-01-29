@@ -1,6 +1,6 @@
-- Id: 151 
-  SubId: 0
-  Type: 2
+- SubId: 0
+  Id: 151   
+  Type: NormalAttack
   CriticalAdjust: 1
   Power: 100
   Team: 0
@@ -9,12 +9,12 @@
   EffectOnHit: 1
   KnockbackStrength1: 6
   KnockbackStrength2: 6
-  Unknown: 0000
-  Flags:
-  RefactSelf: 2
-  RefactOther: 1
+  Unknown: 0
+  Flags: KillBoss
+  RefactSelf: Reflect
+  RefactOther: Reflect
   ReflectedMotion: 0
-  ReflectHitBack: 0
+  ReflectedHitBack: 0
   ReflectAction: 0
   ReflectHitSound: 500000
   ReflectRC: 0
@@ -26,13 +26,13 @@
   FloorCheck: 0
   DriveDrain: 0
   RevengeDamage: 0
-  AttackTrReaction: 0
+  AttackTrReaction: Attack
   ComboGroup: 0
   RandomEffect: 0
-  Kind:
+  Kind: 0
   HpDrain: 0
-- Id: 152 
-  SubId: 0
+- SubId: 0 
+  Id: 152 
   Type: 2
   CriticalAdjust: 1
   Power: 100
@@ -42,12 +42,12 @@
   EffectOnHit: 1
   KnockbackStrength1: 2
   KnockbackStrength2: 10
-  Unknown: 0000
-  Flags:
-  RefactSelf: 2
-  RefactOther: 1
+  Unknown: 0
+  Flags: KillBoss
+  RefactSelf: Reflect
+  RefactOther: Reflect
   ReflectedMotion: 0
-  ReflectHitBack: 0
+  ReflectedHitBack: 0
   ReflectAction: 0
   ReflectHitSound: 500000
   ReflectRC: 0
@@ -59,13 +59,13 @@
   FloorCheck: 0
   DriveDrain: 0
   RevengeDamage: 0
-  AttackTrReaction: 0
+  AttackTrReaction: Attack
   ComboGroup: 0
   RandomEffect: 0
-  Kind:
+  Kind:0
   HpDrain: 0
-- Id: 153 
-  SubId: 0
+- SubId: 0
+  Id: 153 
   Type: 2
   CriticalAdjust: 1
   Power: 100
@@ -75,12 +75,12 @@
   EffectOnHit: 1
   KnockbackStrength1: 6
   KnockbackStrength2: 6
-  Unknown: 0000
-  Flags:
-  RefactSelf: 2
-  RefactOther: 1
+  Unknown: 0
+  Flags: KillBoss
+  RefactSelf: Reflect
+  RefactOther: Reflect
   ReflectedMotion: 0
-  ReflectHitBack: 0
+  ReflectedHitBack: 0
   ReflectAction: 0
   ReflectHitSound: 500000
   ReflectRC: 0
@@ -92,13 +92,13 @@
   FloorCheck: 0
   DriveDrain: 0
   RevengeDamage: 0
-  AttackTrReaction: 0
+  AttackTrReaction: Attack
   ComboGroup: 0
   RandomEffect: 0
-  Kind:
+  Kind:0
   HpDrain: 0
-- Id: 154 
-  SubId: 0
+- SubId: 0
+  Id: 154 
   Type: 2
   CriticalAdjust: 1
   Power: 100
@@ -108,12 +108,12 @@
   EffectOnHit: 1
   KnockbackStrength1: 1
   KnockbackStrength2: 0
-  Unknown: 0000
-  Flags:
-  RefactSelf: 2
-  RefactOther: 1
+  Unknown: 0
+  Flags: KillBoss
+  RefactSelf: Reflect
+  RefactOther: Reflect
   ReflectedMotion: 0
-  ReflectHitBack: 0
+  ReflectedHitBack: 0
   ReflectAction: 0
   ReflectHitSound: 500000
   ReflectRC: 0
@@ -125,13 +125,13 @@
   FloorCheck: 0
   DriveDrain: 0
   RevengeDamage: 0
-  AttackTrReaction: 0
+  AttackTrReaction: Attack
   ComboGroup: 0
   RandomEffect: 0
-  Kind:
+  Kind:0
   HpDrain: 0
-- Id: 155 
-  SubId: 0
+- SubId: 0 
+  Id: 155 
   Type: 2
   CriticalAdjust: 1
   Power: 100
@@ -141,12 +141,12 @@
   EffectOnHit: 1
   KnockbackStrength1: 2
   KnockbackStrength2: -4
-  Unknown: 0000
-  Flags:
-  RefactSelf: 2
-  RefactOther: 1
+  Unknown: 0
+  Flags: KillBoss
+  RefactSelf: Reflect
+  RefactOther: Reflect
   ReflectedMotion: 0
-  ReflectHitBack: 0
+  ReflectedHitBack: 0
   ReflectAction: 0
   ReflectHitSound: 500000
   ReflectRC: 0
@@ -158,8 +158,8 @@
   FloorCheck: 0
   DriveDrain: 0
   RevengeDamage: 0
-  AttackTrReaction: 0
+  AttackTrReaction: Attack
   ComboGroup: 0
   RandomEffect: 0
-  Kind:
+  Kind:0
   HpDrain: 0
