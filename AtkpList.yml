@@ -43,7 +43,7 @@
   KnockbackStrength1: 2
   KnockbackStrength2: 10
   Unknown: 0
-  Flags: KillBoss
+  Flags: 
   RefactSelf: Reflect
   RefactOther: Reflect
   ReflectedMotion: 0
@@ -76,7 +76,7 @@
   KnockbackStrength1: 6
   KnockbackStrength2: 6
   Unknown: 0
-  Flags: KillBoss
+  Flags: 
   RefactSelf: Reflect
   RefactOther: Reflect
   ReflectedMotion: 0
@@ -106,10 +106,10 @@
   Element: 0
   EnemyReaction: 9
   EffectOnHit: 1
-  KnockbackStrength1: 1
-  KnockbackStrength2: 0
+  KnockbackStrength1: 6 
+  KnockbackStrength2: 6
   Unknown: 0
-  Flags: KillBoss
+  Flags: 
   RefactSelf: Reflect
   RefactOther: Reflect
   ReflectedMotion: 0
@@ -142,7 +142,7 @@
   KnockbackStrength1: 2
   KnockbackStrength2: -4
   Unknown: 0
-  Flags: KillBoss
+  Flags: 
   RefactSelf: Reflect
   RefactOther: Reflect
   ReflectedMotion: 0
