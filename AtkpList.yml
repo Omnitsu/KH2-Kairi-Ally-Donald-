@@ -1,14 +1,14 @@
 - SubId: 0
   Id: 151   
   Type: 1
-  CriticalAdjust: 1
+  CriticalAdjust: 0
   Power: 100
   Team: 0
   Element: 0
-  EnemyReaction: 9
+  EnemyReaction: 11
   EffectOnHit: 1
-  KnockbackStrength1: 6
-  KnockbackStrength2: 6
+  KnockbackStrength1: 0
+  KnockbackStrength2: -6
   Unknown: 0
   Flags: KillBoss
   RefactSelf: Nothing
@@ -16,7 +16,7 @@
   ReflectedMotion: 0
   ReflectedHitBack: 0
   ReflectAction: 0
-  ReflectHitSound: 500000
+  ReflectHitSound: 500008
   ReflectRC: 0
   ReflectRange: 0
   ReflectAngle: 0
@@ -33,14 +33,14 @@
   HpDrain: 0
 - SubId: 0 
   Id: 152 
-  Type: 1
-  CriticalAdjust: 1
+  Type: 4
+  CriticalAdjust: 0
   Power: 100
   Team: 0
   Element: 0
-  EnemyReaction: 9
+  EnemyReaction: 11
   EffectOnHit: 1
-  KnockbackStrength1: 2
+  KnockbackStrength1: 0
   KnockbackStrength2: 10
   Unknown: 0
   Flags: 
@@ -49,7 +49,7 @@
   ReflectedMotion: 0
   ReflectedHitBack: 0
   ReflectAction: 0
-  ReflectHitSound: 500000
+  ReflectHitSound: 500007
   ReflectRC: 0
   ReflectRange: 0
   ReflectAngle: 0
@@ -71,7 +71,7 @@
   Power: 100
   Team: 0
   Element: 0
-  EnemyReaction: 9
+  EnemyReaction: 11
   EffectOnHit: 1
   KnockbackStrength1: 6
   KnockbackStrength2: 6
@@ -100,14 +100,14 @@
 - SubId: 0
   Id: 154 
   Type: 1
-  CriticalAdjust: 1
+  CriticalAdjust: 0
   Power: 100
   Team: 0
   Element: 0
-  EnemyReaction: 9
-  EffectOnHit: 1
-  KnockbackStrength1: 6 
-  KnockbackStrength2: 6
+  EnemyReaction: 11
+  EffectOnHit: 3
+  KnockbackStrength1: 4
+  KnockbackStrength2: 10
   Unknown: 0
   Flags: 
   RefactSelf: Nothing
@@ -115,7 +115,7 @@
   ReflectedMotion: 0
   ReflectedHitBack: 0
   ReflectAction: 0
-  ReflectHitSound: 500000
+  ReflectHitSound: 500006
   ReflectRC: 0
   ReflectRange: 0
   ReflectAngle: 0
@@ -133,14 +133,14 @@
 - SubId: 0 
   Id: 155 
   Type: 1
-  CriticalAdjust: 1
+  CriticalAdjust: 0
   Power: 100
   Team: 0
   Element: 0
-  EnemyReaction: 9
+  EnemyReaction: 11
   EffectOnHit: 1
   KnockbackStrength1: 2
-  KnockbackStrength2: -4
+  KnockbackStrength2: -2
   Unknown: 0
   Flags: 
   RefactSelf: Nothing
@@ -148,13 +148,13 @@
   ReflectedMotion: 0
   ReflectedHitBack: 0
   ReflectAction: 0
-  ReflectHitSound: 500000
+  ReflectHitSound: 500007
   ReflectRC: 0
   ReflectRange: 0
   ReflectAngle: 0
   DamageEffect: 1
   Switch: 0
-  Interval: 6
+  Interval: 8
   FloorCheck: 0
   DriveDrain: 0
   RevengeDamage: 0
