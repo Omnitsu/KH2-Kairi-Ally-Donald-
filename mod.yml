@@ -12,554 +12,279 @@ assets:
    platform: pc
    source:
      - name: dll/KH2Moose.ini
+# Base Model     
  - name: obj/P_EX020.mdlx
+   multi:
+   - name: obj/P_EX020_NM.mdlx
+   - name: obj/P_EX020_TR.mdlx
+   - name: obj/P_EX020_XM.mdlx
+   - name: obj/P_LK020.mdlx
+   - name: obj/P_WI020.mdlx
    method: copy
    source:
      - name: obj/P_EX020.mdlx
+# Base A.US
  - name: obj/P_EX020.a.us
+   multi:
+   - name: obj/P_EX020_NM.a.us 
+   - name: obj/P_EX020_TR.a.us 
+   - name: obj/P_EX020_XM.a.us 
+   - name: obj/P_LK020.a.us 
+   - name: obj/P_WI020.a.us 
    method: copy
    source:
      - name: obj/P_EX020.a.us
- - name: obj/P_EX020_NM.mdlx
-   method: copy
-   source:
-     - name: obj/P_EX020.mdlx
- - name: obj/P_EX020_NM.a.us
-   method: copy
-   source:
-     - name: obj/P_EX020.a.us
- - name: obj/P_EX020_TR.mdlx
-   method: copy
-   source:
-     - name: obj/P_EX020.mdlx
- - name: obj/P_EX020_TR.a.us
-   method: copy
-   source:
-     - name: obj/P_EX020.a.us
- - name: obj/P_EX020_XM.mdlx
-   method: copy
-   source:
-     - name: obj/P_EX020.mdlx
- - name: obj/P_EX020_XM.a.us
-   method: copy
-   source:
-     - name: obj/P_EX020.a.us
- - name: obj/P_EX020_CM.mdlx
-   method: copy
-   source:
-     - name: obj/P_EX020.mdlx
- - name: obj/P_EX020_CM.a.us
-   method: copy
-   source:
-     - name: obj/P_EX020.a.us
- - name: obj/P_WI020.a.us
-   method: copy
-   source:
-     - name: obj/P_EX020.a.us
- - name: obj/P_WI020.mdlx
-   method: copy
-   source:
-     - name: obj/P_EX020.mdlx
- - name: obj/P_WI020.mset
-   method: copy
-   source:
-     - name: obj/P_EX020.mset
- - name: obj/P_LK020.a.us
-   method: copy
-   source:
-     - name: obj/P_EX020.a.us
- - name: obj/P_LK020.mdlx
-   method: copy
-   source:
-     - name: obj/P_EX020.mdlx
- - name: obj/P_LK020.mset
-   method: copy
-   source:
-     - name: obj/P_EX020.mset
+# Base MSET
  - name: obj/P_EX020.mset
+   multi:
+   - name: obj/P_LK020.mset
+   - name: obj/P_WI020.mset
    method: copy
    source:
      - name: obj/P_EX020.mset
+# MEMO MSETs
  - name: obj/P_EX020_MEMO.mset
+   multi:
+   - name: obj/P_WI020_MEMO.mset
+   - name: obj/P_LK020_MEMO.mset
    method: copy
    source:
      - name: obj/P_EX020_MEMO.mset
+# Base Weapon MDLX
  - name: obj/W_EX020.mdlx
+   multi:
+   - name: obj/W_EX020_NM.mdlx
+   - name: obj/W_EX020_TR.mdlx
+   - name: obj/W_EX020_XM.mdlx
+   - name: obj/W_EX020_WI.mdlx
    method: copy
    source:
      - name: obj/W_EX020.mdlx
+# Base Weapon MSET
  - name: obj/W_EX020.mset
+   multi:
+   - name: obj/W_EX020_LK.mset
+   - name: obj/W_EX020_WI.mset
    method: copy
    source:
      - name: obj/W_EX020.mset
+# Base Weapon A.US
  - name: obj/W_EX020.a.us
+   multi:
+   - name: obj/W_EX020_NM.a.us 
+   - name: obj/W_EX020_TR.a.us 
+   - name: obj/W_EX020_WI.a.us 
    method: copy
    source:
      - name: obj/W_EX020.a.us
+# fucking Thing
  - name: obj/P_EX020_ANGRY_NPC.mdlx
    method: copy
    source:
      - name: obj/P_EX020_ANGRY_NPC.mdlx
+# RTN MDLX
  - name: obj/P_EX020_RTN.mdlx
+   multi:
+   - name: obj/P_EX020_NM_RTN.mdlx
+   - name: obj/P_EX020_XM_RTN.mdlx
+   - name: obj/P_WI020_RTN.mdlx
+   - name: obj/P_WI020_RTN.mdlx
+   - name: obj/P_LK020_RTN.mdlx
+   - name: obj/P_EX020_TR_RTN.mdlx
    method: copy
    source:
      - name: obj/P_EX020_RTN.mdlx
- - name: obj/P_EX020_NM_RTN.mdlx
-   method: copy
-   source:
-     - name: obj/P_EX020_RTN.mdlx
+# spacing for my eyes
  - name: obj/P_EX020_NOBG_RTN.mdlx
    method: copy
    source:
-     - name: obj/P_EX020_RTN.mdlx
- - name: obj/P_EX020_TR_RTN.mdlx
+     - name: obj/P_EX020_NOBG_RTN.mdlx
+# RTN MSETs
+ - name: obj/P_EX020_RTN.mset
+   multi:
+   - name: obj/P_EX020_TR_RTN.mset
+   - name: obj/P_LK020_RTN.mset
+   - name: obj/P_WI020_RTN.mset
    method: copy
    source:
-     - name: obj/P_EX020_RTN.mdlx
- - name: obj/P_EX020_XM_RTN.mdlx
-   method: copy
-   source:
-     - name: obj/P_EX020_RTN.mdlx
+     - name: obj/P_EX020_RTN.mset
+# Base Itempic
  - name: itempic/item-068.imd
    method: copy
    source:
      - name: itempic/item-068.imd
+# Remastered Itempic
  - name: remastered/itempic/item-068.imd/-0.dds
    method: copy
    source:
      - name: remastered/itempic/item-068.imd/-0.dds
+# -0.DDS (P_EX020)  
  - name: remastered/obj/P_EX020.a.us/-0.dds
+   multi:
+   - name: remastered/obj/P_EX020_NM.a.us/-0.dds 
+   - name: remastered/obj/P_EX020_TR.a.us/-0.dds
+   - name: remastered/obj/P_EX020_XM.a.us/-0.dds
+   - name: remastered/obj/P_LK020.a.us/-0.dds 
+   - name: remastered/obj/P_WI020.a.us/-0.dds 
    method: copy
    source:
      - name: remastered/obj/P_EX020.a.us/-0.dds
+# -1.DDS (P_EX020)  
  - name: remastered/obj/P_EX020.a.us/-1.dds
+   multi:
+   - name: remastered/obj/P_EX020_NM.a.us/-1.dds 
+   - name: remastered/obj/P_EX020_TR.a.us/-1.dds
+   - name: remastered/obj/P_EX020_XM.a.us/-1.dds
+   - name: remastered/obj/P_LK020.a.us/-1.dds 
+   - name: remastered/obj/P_WI020.a.us/-1.dds 
    method: copy
    source:
      - name: remastered/obj/P_EX020.a.us/-1.dds
+# -2.DDS (P_EX020)  
  - name: remastered/obj/P_EX020.a.us/-2.dds
+   multi:
+   - name: remastered/obj/P_EX020_NM.a.us/-2.dds 
+   - name: remastered/obj/P_EX020_TR.a.us/-2.dds
+   - name: remastered/obj/P_EX020_XM.a.us/-2.dds
+   - name: remastered/obj/P_LK020.a.us/-2.dds 
+   - name: remastered/obj/P_WI020.a.us/-2.dds 
    method: copy
    source:
      - name: remastered/obj/P_EX020.a.us/-2.dds
+# -3.DDS (P_EX020)  
  - name: remastered/obj/P_EX020.a.us/-3.dds
+   multi:
+   - name: remastered/obj/P_EX020_NM.a.us/-3.dds 
+   - name: remastered/obj/P_EX020_TR.a.us/-3.dds
+   - name: remastered/obj/P_EX020_XM.a.us/-3.dds
+   - name: remastered/obj/P_LK020.a.us/-3.dds 
+   - name: remastered/obj/P_WI020.a.us/-3.dds 
    method: copy
    source:
      - name: remastered/obj/P_EX020.a.us/-3.dds
+# -4.DDS (P_EX020)  
  - name: remastered/obj/P_EX020.a.us/-4.dds
+   multi:
+   - name: remastered/obj/P_EX020_NM.a.us/-4.dds 
+   - name: remastered/obj/P_EX020_TR.a.us/-4.dds
+   - name: remastered/obj/P_EX020_XM.a.us/-4.dds
+   - name: remastered/obj/P_LK020.a.us/-4.dds 
+   - name: remastered/obj/P_WI020.a.us/-4.dds 
    method: copy
    source:
      - name: remastered/obj/P_EX020.a.us/-4.dds
+# -5.DDS (P_EX020)  
  - name: remastered/obj/P_EX020.a.us/-5.dds
+   multi:
+   - name: remastered/obj/P_EX020_NM.a.us/-5.dds 
+   - name: remastered/obj/P_EX020_TR.a.us/-5.dds
+   - name: remastered/obj/P_EX020_XM.a.us/-5.dds
+   - name: remastered/obj/P_LK020.a.us/-5.dds 
+   - name: remastered/obj/P_WI020.a.us/-5.dds 
    method: copy
    source:
      - name: remastered/obj/P_EX020.a.us/-5.dds
+# -6.DDS (P_EX020)  
  - name: remastered/obj/P_EX020.a.us/-6.dds
+   multi:
+   - name: remastered/obj/P_EX020_NM.a.us/-6.dds 
+   - name: remastered/obj/P_EX020_TR.a.us/-6.dds
+   - name: remastered/obj/P_EX020_XM.a.us/-6.dds
+   - name: remastered/obj/P_LK020.a.us/-6.dds 
+   - name: remastered/obj/P_WI020.a.us/-6.dds 
    method: copy
    source:
      - name: remastered/obj/P_EX020.a.us/-6.dds
+# -7.DDS (P_EX020)  
  - name: remastered/obj/P_EX020.a.us/-7.dds
+   multi:
+   - name: remastered/obj/P_EX020_NM.a.us/-7.dds 
+   - name: remastered/obj/P_EX020_TR.a.us/-7.dds
+   - name: remastered/obj/P_EX020_XM.a.us/-7.dds
+   - name: remastered/obj/P_LK020.a.us/-7.dds 
+   - name: remastered/obj/P_WI020.a.us/-7.dds 
    method: copy
    source:
      - name: remastered/obj/P_EX020.a.us/-7.dds
+# -8.DDS (P_EX020)  
  - name: remastered/obj/P_EX020.a.us/-8.dds
+   multi:
+   - name: remastered/obj/P_EX020_NM.a.us/-8.dds 
+   - name: remastered/obj/P_EX020_TR.a.us/-8.dds
+   - name: remastered/obj/P_EX020_XM.a.us/-8.dds
+   - name: remastered/obj/P_LK020.a.us/-8.dds 
+   - name: remastered/obj/P_WI020.a.us/-8.dds 
    method: copy
    source:
-     - name: remastered/obj/P_EX020.a.us/-8.dds     
+     - name: remastered/obj/P_EX020.a.us/-8.dds  
+# -9.DDS (P_EX020)   
  - name: remastered/obj/P_EX020.a.us/-9.dds
+   multi:
+   - name: remastered/obj/P_EX020_NM.a.us/-9.dds 
+   - name: remastered/obj/P_EX020_TR.a.us/-9.dds
+   - name: remastered/obj/P_EX020_XM.a.us/-9.dds
+   - name: remastered/obj/P_LK020.a.us/-9.dds 
+   - name: remastered/obj/P_WI020.a.us/-9.dds 
    method: copy
    source:
      - name: remastered/obj/P_EX020.a.us/-9.dds
+# -10.DDS (P_EX020)
  - name: remastered/obj/P_EX020.a.us/-10.dds
+   multi:
+   - name: remastered/obj/P_EX020_NM.a.us/-10.dds 
+   - name: remastered/obj/P_EX020_TR.a.us/-10.dds
+   - name: remastered/obj/P_EX020_XM.a.us/-10.dds
+   - name: remastered/obj/P_LK020.a.us/-10.dds 
+   - name: remastered/obj/P_WI020.a.us/-10.dds 
    method: copy
    source:
      - name: remastered/obj/P_EX020.a.us/-10.dds
- - name: remastered/obj/P_EX020_XM.a.us/-0.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-0.dds
- - name: remastered/obj/P_EX020_XM.a.us/-1.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-1.dds
- - name: remastered/obj/P_EX020_XM.a.us/-2.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-2.dds
- - name: remastered/obj/P_EX020_XM.a.us/-3.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-3.dds
- - name: remastered/obj/P_EX020_XM.a.us/-4.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-4.dds
- - name: remastered/obj/P_EX020_XM.a.us/-5.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-5.dds
- - name: remastered/obj/P_EX020_XM.a.us/-6.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-6.dds
- - name: remastered/obj/P_EX020_XM.a.us/-7.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-7.dds
- - name: remastered/obj/P_EX020_XM.a.us/-8.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-8.dds     
- - name: remastered/obj/P_EX020_XM.a.us/-9.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-9.dds
- - name: remastered/obj/P_EX020_XM.a.us/-10.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-10.dds
- - name: remastered/obj/P_EX020_TR.a.us/-0.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-0.dds
- - name: remastered/obj/P_EX020_TR.a.us/-1.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-1.dds
- - name: remastered/obj/P_EX020_TR.a.us/-2.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-2.dds
- - name: remastered/obj/P_EX020_TR.a.us/-3.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-3.dds
- - name: remastered/obj/P_EX020_TR.a.us/-4.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-4.dds
- - name: remastered/obj/P_EX020_TR.a.us/-5.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-5.dds
- - name: remastered/obj/P_EX020_TR.a.us/-6.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-6.dds
- - name: remastered/obj/P_EX020_TR.a.us/-7.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-7.dds
- - name: remastered/obj/P_EX020_TR.a.us/-8.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-8.dds     
- - name: remastered/obj/P_EX020_TR.a.us/-9.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-9.dds
- - name: remastered/obj/P_EX020_TR.a.us/-10.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-10.dds
- - name: remastered/obj/P_EX020_NM.a.us/-0.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-0.dds
- - name: remastered/obj/P_EX020_NM.a.us/-1.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-1.dds
- - name: remastered/obj/P_EX020_NM.a.us/-2.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-2.dds
- - name: remastered/obj/P_EX020_NM.a.us/-3.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-3.dds
- - name: remastered/obj/P_EX020_NM.a.us/-4.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-4.dds
- - name: remastered/obj/P_EX020_NM.a.us/-5.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-5.dds
- - name: remastered/obj/P_EX020_NM.a.us/-6.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-6.dds
- - name: remastered/obj/P_EX020_NM.a.us/-7.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-7.dds
- - name: remastered/obj/P_EX020_NM.a.us/-8.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-8.dds     
- - name: remastered/obj/P_EX020_NM.a.us/-9.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-9.dds
- - name: remastered/obj/P_EX020_NM.a.us/-10.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-10.dds
- - name: remastered/obj/P_EX020_DC.a.us/-0.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-0.dds
- - name: remastered/obj/P_EX020_DC.a.us/-1.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-1.dds
- - name: remastered/obj/P_EX020_DC.a.us/-2.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-2.dds
- - name: remastered/obj/P_EX020_DC.a.us/-3.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-3.dds
- - name: remastered/obj/P_EX020_DC.a.us/-4.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-4.dds
- - name: remastered/obj/P_EX020_DC.a.us/-5.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-5.dds
- - name: remastered/obj/P_EX020_DC.a.us/-6.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-6.dds
- - name: remastered/obj/P_EX020_DC.a.us/-7.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-7.dds
- - name: remastered/obj/P_EX020_DC.a.us/-8.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-8.dds     
- - name: remastered/obj/P_EX020_DC.a.us/-9.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-9.dds
- - name: remastered/obj/P_EX020_DC.a.us/-10.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-10.dds
- - name: remastered/obj/P_EX020_CM.a.us/-0.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-0.dds
- - name: remastered/obj/P_EX020_CM.a.us/-1.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-1.dds
- - name: remastered/obj/P_EX020_CM.a.us/-2.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-2.dds
- - name: remastered/obj/P_EX020_CM.a.us/-3.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-3.dds
- - name: remastered/obj/P_EX020_CM.a.us/-4.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-4.dds
- - name: remastered/obj/P_EX020_CM.a.us/-5.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-5.dds
- - name: remastered/obj/P_EX020_CM.a.us/-6.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-6.dds
- - name: remastered/obj/P_EX020_CM.a.us/-7.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-7.dds
- - name: remastered/obj/P_EX020_CM.a.us/-8.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-8.dds     
- - name: remastered/obj/P_EX020_CM.a.us/-9.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-9.dds
- - name: remastered/obj/P_EX020_CM.a.us/-10.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-10.dds
- - name: remastered/obj/P_LK020.a.us/-0.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-0.dds
- - name: remastered/obj/P_LK020.a.us/-1.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-1.dds
- - name: remastered/obj/P_LK020.a.us/-2.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-2.dds
- - name: remastered/obj/P_LK020.a.us/-3.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-3.dds
- - name: remastered/obj/P_LK020.a.us/-4.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-4.dds
- - name: remastered/obj/P_LK020.a.us/-5.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-5.dds
- - name: remastered/obj/P_LK020.a.us/-6.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-6.dds
- - name: remastered/obj/P_LK020.a.us/-7.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-7.dds
- - name: remastered/obj/P_LK020.a.us/-8.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-8.dds     
- - name: remastered/obj/P_LK020.a.us/-9.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-9.dds
- - name: remastered/obj/P_LK020.a.us/-10.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-10.dds
- - name: remastered/obj/P_WI020.a.us/-0.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-0.dds
- - name: remastered/obj/P_WI020.a.us/-1.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-1.dds
- - name: remastered/obj/P_WI020.a.us/-2.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-2.dds
- - name: remastered/obj/P_WI020.a.us/-3.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-3.dds
- - name: remastered/obj/P_WI020.a.us/-4.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-4.dds
- - name: remastered/obj/P_WI020.a.us/-5.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-5.dds
- - name: remastered/obj/P_WI020.a.us/-6.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-6.dds
- - name: remastered/obj/P_WI020.a.us/-7.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-7.dds
- - name: remastered/obj/P_WI020.a.us/-8.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-8.dds     
- - name: remastered/obj/P_WI020.a.us/-9.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-9.dds
- - name: remastered/obj/P_WI020.a.us/-10.dds
-   method: copy
-   source:
-     - name: remastered/obj/P_EX020.a.us/-10.dds
+# -0.DDS (W_EX020)  
  - name: remastered/obj/W_EX020.a.us/-0.dds
+   multi:
+   - name: remastered/obj/W_EX020_NM.a.us/-0.dds
+   - name: remastered/obj/W_EX020_TR.a.us/-0.dds
+   - name: remastered/obj/W_EX020_WI.a.us/-0.dds
    method: copy
    source:
      - name: remastered/obj/W_EX020.a.us/-0.dds
+# -1.DDS (W_EX020)       
  - name: remastered/obj/W_EX020.a.us/-1.dds
+   multi:
+   - name: remastered/obj/W_EX020_NM.a.us/-1.dds
+   - name: remastered/obj/W_EX020_TR.a.us/-1.dds
+   - name: remastered/obj/W_EX020_WI.a.us/-1.dds
    method: copy
    source:
      - name: remastered/obj/W_EX020.a.us/-1.dds
+# -2.DDS (W_EX020)  
  - name: remastered/obj/W_EX020.a.us/-2.dds
+   multi:
+   - name: remastered/obj/W_EX020_NM.a.us/-2.dds
+   - name: remastered/obj/W_EX020_TR.a.us/-2.dds
+   - name: remastered/obj/W_EX020_WI.a.us/-2.dds
    method: copy
    source:
      - name: remastered/obj/W_EX020.a.us/-2.dds
+# -3.DDS (W_EX020)  
  - name: remastered/obj/W_EX020.a.us/-3.dds
+   multi:
+   - name: remastered/obj/W_EX020_NM.a.us/-3.dds
+   - name: remastered/obj/W_EX020_TR.a.us/-3.dds
+   - name: remastered/obj/W_EX020_WI.a.us/-3.dds
    method: copy
    source:
      - name: remastered/obj/W_EX020.a.us/-3.dds    
+# Keyblade Sounds
  - name: remastered/obj/W_EX020.a.us/se/obj/se514
+   multi:
+   - name: remastered/obj/W_EX020_NM.a.us/se/obj/se514
+   - name: remastered/obj/W_EX020_TR.a.us/se/obj/se514
+   - name: remastered/obj/W_EX020_WI.a.us/se/obj/se514
    method: copy
    source:
-     - name: remastered/obj/W_EX020.a.us/se/obj/se514
- - name: remastered/obj/W_EX020_NM.a.us/-0.dds
-   method: copy
-   source:
-     - name: remastered/obj/W_EX020.a.us/-0.dds
- - name: remastered/obj/W_EX020_NM.a.us/-1.dds
-   method: copy
-   source:
-     - name: remastered/obj/W_EX020.a.us/-1.dds
- - name: remastered/obj/W_EX020_NM.a.us/-2.dds
-   method: copy
-   source:
-     - name: remastered/obj/W_EX020.a.us/-2.dds
- - name: remastered/obj/W_EX020_NM.a.us/-3.dds
-   method: copy
-   source:
-     - name: remastered/obj/W_EX020.a.us/-3.dds    
- - name: remastered/obj/W_EX020_NM.a.us/se/obj/se514
-   method: copy
-   source:
-     - name: remastered/obj/W_EX020.a.us/se/obj/se514
- - name: remastered/obj/W_EX020_TR.a.us/-0.dds
-   method: copy
-   source:
-     - name: remastered/obj/W_EX020.a.us/-0.dds
- - name: remastered/obj/W_EX020_TR.a.us/-1.dds
-   method: copy
-   source:
-     - name: remastered/obj/W_EX020.a.us/-1.dds
- - name: remastered/obj/W_EX020_TR.a.us/-2.dds
-   method: copy
-   source:
-     - name: remastered/obj/W_EX020.a.us/-2.dds
- - name: remastered/obj/W_EX020_TR.a.us/-3.dds
-   method: copy
-   source:
-     - name: remastered/obj/W_EX020.a.us/-3.dds    
- - name: remastered/obj/W_EX020_TR.a.us/se/obj/se514
-   method: copy
-   source:
-     - name: remastered/obj/W_EX020.a.us/se/obj/se514
- - name: remastered/obj/W_EX020_WI.a.us/-0.dds
-   method: copy
-   source:
-     - name: remastered/obj/W_EX020.a.us/-0.dds
- - name: remastered/obj/W_EX020_WI.a.us/-1.dds
-   method: copy
-   source:
-     - name: remastered/obj/W_EX020.a.us/-1.dds
- - name: remastered/obj/W_EX020_WI.a.us/-2.dds
-   method: copy
-   source:
-     - name: remastered/obj/W_EX020.a.us/-2.dds
- - name: remastered/obj/W_EX020_WI.a.us/-3.dds
-   method: copy
-   source:
-     - name: remastered/obj/W_EX020.a.us/-3.dds    
- - name: remastered/obj/W_EX020_WI.a.us/se/obj/se514
-   method: copy
-   source:
-     - name: remastered/obj/W_EX020.a.us/se/obj/se514
+     - name: remastered/obj/W_EX020.a.us/se/obj/se514   
+# Text Changes     
  - name: msg/us/sys.bar
    method: binarc
    source:
@@ -569,6 +294,7 @@ assets:
        source:
        - name: sys.yml
          language: en
+# Weapon Bone Placement
  - name: 03system.bin
    method: binarc
    source:
@@ -578,6 +304,7 @@ assets:
        source:
        - name: SkltList.yml
          type: sklt
+# Attack IDs
  - name: 00battle.bin
    method: binarc
    source:
@@ -587,6 +314,7 @@ assets:
        source:
        - name: AtkpList.yml
          type: atkp
+# Libretto Files
  - name: libretto/fm/wm1823.bar
    method: copy
    source:
@@ -635,6 +363,7 @@ assets:
    method: copy
    source:
      - name: libretto/us/wm524.bar
+# Cutscene Files
  - name: anm/fm/al/p_ex020/EAL10102E.anb
    method: copy
    source:
