@@ -2,6 +2,7 @@ title: KH2 Kairi Ally (Donald)
 originalAuthor: Omniツ
 description: Revamped KH2 Kairi Ally! Ask any questions here https://discord.gg/YMV6Ea2
 assets:
+# Moose DLL and Config
  - name: dll/KH2Moose.dll
    method: copy
    platform: pc
@@ -12,6 +13,23 @@ assets:
    platform: pc
    source:
      - name: dll/KH2Moose.ini
+# ARD Files (Yensid's Tower)
+ - name: ard\us\tt29.ard
+   method: copy
+   source:
+     - name: ard\us\tt29.ard
+ - name: ard\us\tt30.ard
+   method: copy
+   source:
+     - name: ard\us\tt30.ard
+ - name: ard\us\tt31.ard
+   method: copy
+   source:
+     - name: ard\us\tt31.ard
+ - name: ard\us\tt38.ard
+   method: copy
+   source:
+     - name: ard\us\tt38.ard
 # Base Model     
  - name: obj/P_EX020.mdlx
    multi:
