@@ -34,6 +34,8 @@ assets:
  - name: obj/P_EX020.mdlx
    multi:
    - name: obj/P_EX020_NM.mdlx
+   - name: obj/P_EX020_CM.mdlx
+   - name: obj/P_EX020_DC.mdlx
    - name: obj/P_EX020_TR.mdlx
    - name: obj/P_EX020_XM.mdlx
    - name: obj/P_LK020.mdlx
@@ -140,6 +142,8 @@ assets:
  - name: remastered/obj/P_EX020.a.us/-0.dds
    multi:
    - name: remastered/obj/P_EX020_NM.a.us/-0.dds 
+   - name: remastered/obj/P_EX020_DC.a.us/-0.dds 
+   - name: remastered/obj/P_EX020_CM.a.us/-0.dds 
    - name: remastered/obj/P_EX020_TR.a.us/-0.dds
    - name: remastered/obj/P_EX020_XM.a.us/-0.dds
    - name: remastered/obj/P_LK020.a.us/-0.dds 
@@ -152,6 +156,8 @@ assets:
    multi:
    - name: remastered/obj/P_EX020_NM.a.us/-1.dds 
    - name: remastered/obj/P_EX020_TR.a.us/-1.dds
+   - name: remastered/obj/P_EX020_DC.a.us/-1.dds 
+   - name: remastered/obj/P_EX020_CM.a.us/-1.dds
    - name: remastered/obj/P_EX020_XM.a.us/-1.dds
    - name: remastered/obj/P_LK020.a.us/-1.dds 
    - name: remastered/obj/P_WI020.a.us/-1.dds 
@@ -162,6 +168,8 @@ assets:
  - name: remastered/obj/P_EX020.a.us/-2.dds
    multi:
    - name: remastered/obj/P_EX020_NM.a.us/-2.dds 
+   - name: remastered/obj/P_EX020_CM.a.us/-2.dds 
+   - name: remastered/obj/P_EX020_DC.a.us/-2.dds 
    - name: remastered/obj/P_EX020_TR.a.us/-2.dds
    - name: remastered/obj/P_EX020_XM.a.us/-2.dds
    - name: remastered/obj/P_LK020.a.us/-2.dds 
@@ -173,6 +181,8 @@ assets:
  - name: remastered/obj/P_EX020.a.us/-3.dds
    multi:
    - name: remastered/obj/P_EX020_NM.a.us/-3.dds 
+   - name: remastered/obj/P_EX020_CM.a.us/-3.dds 
+   - name: remastered/obj/P_EX020_DM.a.us/-3.dds 
    - name: remastered/obj/P_EX020_TR.a.us/-3.dds
    - name: remastered/obj/P_EX020_XM.a.us/-3.dds
    - name: remastered/obj/P_LK020.a.us/-3.dds 
@@ -184,6 +194,8 @@ assets:
  - name: remastered/obj/P_EX020.a.us/-4.dds
    multi:
    - name: remastered/obj/P_EX020_NM.a.us/-4.dds 
+   - name: remastered/obj/P_EX020_CM.a.us/-4.dds 
+   - name: remastered/obj/P_EX020_DC.a.us/-4.dds 
    - name: remastered/obj/P_EX020_TR.a.us/-4.dds
    - name: remastered/obj/P_EX020_XM.a.us/-4.dds
    - name: remastered/obj/P_LK020.a.us/-4.dds 
@@ -195,6 +207,8 @@ assets:
  - name: remastered/obj/P_EX020.a.us/-5.dds
    multi:
    - name: remastered/obj/P_EX020_NM.a.us/-5.dds 
+   - name: remastered/obj/P_EX020_CM.a.us/-5.dds 
+   - name: remastered/obj/P_EX020_DC.a.us/-5.dds 
    - name: remastered/obj/P_EX020_TR.a.us/-5.dds
    - name: remastered/obj/P_EX020_XM.a.us/-5.dds
    - name: remastered/obj/P_LK020.a.us/-5.dds 
@@ -206,6 +220,8 @@ assets:
  - name: remastered/obj/P_EX020.a.us/-6.dds
    multi:
    - name: remastered/obj/P_EX020_NM.a.us/-6.dds 
+   - name: remastered/obj/P_EX020_CM.a.us/-6.dds 
+   - name: remastered/obj/P_EX020_DC.a.us/-6.dds 
    - name: remastered/obj/P_EX020_TR.a.us/-6.dds
    - name: remastered/obj/P_EX020_XM.a.us/-6.dds
    - name: remastered/obj/P_LK020.a.us/-6.dds 
@@ -217,6 +233,8 @@ assets:
  - name: remastered/obj/P_EX020.a.us/-7.dds
    multi:
    - name: remastered/obj/P_EX020_NM.a.us/-7.dds 
+   - name: remastered/obj/P_EX020_CM.a.us/-7.dds 
+   - name: remastered/obj/P_EX020_DC.a.us/-7.dds 
    - name: remastered/obj/P_EX020_TR.a.us/-7.dds
    - name: remastered/obj/P_EX020_XM.a.us/-7.dds
    - name: remastered/obj/P_LK020.a.us/-7.dds 
@@ -228,6 +246,8 @@ assets:
  - name: remastered/obj/P_EX020.a.us/-8.dds
    multi:
    - name: remastered/obj/P_EX020_NM.a.us/-8.dds 
+   - name: remastered/obj/P_EX020_CM.a.us/-8.dds 
+   - name: remastered/obj/P_EX020_DC.a.us/-8.dds 
    - name: remastered/obj/P_EX020_TR.a.us/-8.dds
    - name: remastered/obj/P_EX020_XM.a.us/-8.dds
    - name: remastered/obj/P_LK020.a.us/-8.dds 
@@ -239,6 +259,8 @@ assets:
  - name: remastered/obj/P_EX020.a.us/-9.dds
    multi:
    - name: remastered/obj/P_EX020_NM.a.us/-9.dds 
+   - name: remastered/obj/P_EX020_CM.a.us/-9.dds 
+   - name: remastered/obj/P_EX020_DC.a.us/-9.dds 
    - name: remastered/obj/P_EX020_TR.a.us/-9.dds
    - name: remastered/obj/P_EX020_XM.a.us/-9.dds
    - name: remastered/obj/P_LK020.a.us/-9.dds 
@@ -250,6 +272,8 @@ assets:
  - name: remastered/obj/P_EX020.a.us/-10.dds
    multi:
    - name: remastered/obj/P_EX020_NM.a.us/-10.dds 
+   - name: remastered/obj/P_EX020_CM.a.us/-10.dds 
+   - name: remastered/obj/P_EX020_DC.a.us/-10.dds 
    - name: remastered/obj/P_EX020_TR.a.us/-10.dds
    - name: remastered/obj/P_EX020_XM.a.us/-10.dds
    - name: remastered/obj/P_LK020.a.us/-10.dds 
