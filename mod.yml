@@ -14,22 +14,26 @@ assets:
    source:
      - name: dll/KH2Moose.ini
 # ARD Files (Yensid's Tower)
- - name: ard\us\tt29.ard
+ - name: ard/us/tt29.ard
    method: copy
    source:
-     - name: ard\us\tt29.ard
- - name: ard\us\tt30.ard
+     - name: ard/us/tt29.ard
+ - name: ard/us/tt30.ard
    method: copy
    source:
-     - name: ard\us\tt30.ard
- - name: ard\us\tt31.ard
+     - name: ard/us/tt30.ard
+ - name: ard/us/tt31.ard
    method: copy
    source:
-     - name: ard\us\tt31.ard
- - name: ard\us\tt38.ard
+     - name: ard/us/tt31.ard
+ - name: ard/us/tt38.ard
    method: copy
    source:
-     - name: ard\us\tt38.ard
+     - name: ard/us/tt38.ard
+ - name: ard/us/tt14.ard
+   method: copy
+   source:
+     - name: ard/us/tt14.ard
 # Base Model     
  - name: obj/P_EX020.mdlx
    multi:
@@ -348,7 +352,7 @@ assets:
        source:
        - name: SkltList.yml
          type: sklt
-# Attack IDs
+# Attack IDs, Ability Change + Addition
  - name: 00battle.bin
    method: binarc
    source:
@@ -358,6 +362,12 @@ assets:
        source:
        - name: AtkpList.yml
          type: atkp
+     - name: plrp
+       type: list
+       method: listpatch
+       source:
+       - name: PlrpList.yml
+         type: plrp
 # Libretto Files
  - name: libretto/fm/wm1823.bar
    method: copy
