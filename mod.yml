@@ -357,54 +357,110 @@ assets:
        - name: PlrpList.yml
          type: plrp
 # Libretto Files
- - name: libretto/fm/wm1823.bar
+ - name: libretto\fm\wm1660.bar
    method: copy
    source:
-     - name: libretto/fm/wm1823.bar
- - name: libretto/fm/wm1824.bar
+     - name: libretto\fm\wm1660.bar
+ - name: libretto\fm\wm1661.bar
    method: copy
    source:
-     - name: libretto/fm/wm1824.bar
- - name: libretto/fm/wm1836.bar
+     - name: libretto\fm\wm1661.bar
+ - name: libretto\fm\wm1662.bar
    method: copy
    source:
-     - name: libretto/fm/wm1836.bar
- - name: libretto/fm/wm502.bar
+     - name: libretto\fm\wm1662.bar
+ - name: libretto\fm\wm1823.bar
    method: copy
    source:
-     - name: libretto/fm/wm502.bar
- - name: libretto/fm/wm512.bar
+     - name: libretto\fm\wm1823.bar
+ - name: libretto\fm\wm1824.bar
    method: copy
    source:
-     - name: libretto/fm/wm512.bar
- - name: libretto/fm/wm524.bar
+     - name: libretto\fm\wm1824.bar
+ - name: libretto\fm\wm1836.bar
    method: copy
    source:
-     - name: libretto/fm/wm524.bar
- - name: libretto/us/wm1823.bar
+     - name: libretto\fm\wm1836.bar
+ - name: libretto\fm\wm1837.bar
    method: copy
    source:
-     - name: libretto/us/wm1823.bar
- - name: libretto/us/wm1824.bar
+     - name: libretto\fm\wm1837.bar
+ - name: libretto\fm\wm1838.bar
    method: copy
    source:
-     - name: libretto/us/wm1824.bar
- - name: libretto/us/wm1836.bar
+     - name: libretto\fm\wm1838.bar
+ - name: libretto\fm\wm502.bar
    method: copy
    source:
-     - name: libretto/us/wm1836.bar
- - name: libretto/us/wm502.bar
+     - name: libretto\fm\wm502.bar
+ - name: libretto\fm\wm503.bar
    method: copy
    source:
-     - name: libretto/us/wm502.bar
- - name: libretto/us/wm512.bar
+     - name: libretto\fm\wm503.bar
+ - name: libretto\fm\wm512.bar
    method: copy
    source:
-     - name: libretto/us/wm512.bar
- - name: libretto/us/wm524.bar
+     - name: libretto\fm\wm512.bar
+ - name: libretto\fm\wm521.bar
    method: copy
    source:
-     - name: libretto/us/wm524.bar
+     - name: libretto\fm\wm521.bar
+ - name: libretto\fm\wm524.bar
+   method: copy
+   source:
+     - name: libretto\fm\wm524.bar
+ - name: libretto\us\wm1660.bar
+   method: copy
+   source:
+     - name: libretto\us\wm1660.bar
+ - name: libretto\us\wm1661.bar
+   method: copy
+   source:
+     - name: libretto\us\wm1661.bar
+ - name: libretto\us\wm1662.bar
+   method: copy
+   source:
+     - name: libretto\us\wm1662.bar
+ - name: libretto\us\wm1823.bar
+   method: copy
+   source:
+     - name: libretto\us\wm1823.bar
+ - name: libretto\us\wm1824.bar
+   method: copy
+   source:
+     - name: libretto\us\wm1824.bar
+ - name: libretto\us\wm1836.bar
+   method: copy
+   source:
+     - name: libretto\us\wm1836.bar
+ - name: libretto\us\wm1837.bar
+   method: copy
+   source:
+     - name: libretto\us\wm1837.bar
+ - name: libretto\us\wm1838.bar
+   method: copy
+   source:
+     - name: libretto\us\wm1838.bar
+ - name: libretto\us\wm502.bar
+   method: copy
+   source:
+     - name: libretto\us\wm502.bar
+ - name: libretto\us\wm503.bar
+   method: copy
+   source:
+     - name: libretto\us\wm503.bar
+ - name: libretto\us\wm512.bar
+   method: copy
+   source:
+     - name: libretto\us\wm512.bar
+ - name: libretto\us\wm521.bar
+   method: copy
+   source:
+     - name: libretto\us\wm521.bar
+ - name: libretto\us\wm524.bar
+   method: copy
+   source:
+     - name: libretto\us\wm524.bar
 # Cutscene Files
  - name: anm/fm/al/p_ex020/EAL10102E.anb
    method: copy
